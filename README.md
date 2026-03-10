@@ -1,7 +1,9 @@
 PARCIAL-LENGUAJES
 Juan Sebastian Acosta Coy  
-
-Este repositorio contiene la solución de los 5 puntos del parcial de compiladores utilizando diferentes herramientas como Python, Flex, Bison, C, Haskell y ANTLR.
+Introducción
+En este parcial se realizaron varios ejercicios relacionados con conceptos importantes de compiladores y lenguajes de programacio cada uno de los puntos aborda un tema diferente como el uso de autómatas para reconocer cadenas, la validación de identificadores mediante expresiones regulares y la utilización de herramientas como flex bison antlr etx para el análisis y procesamiento de informacion
+El proposito principal fue aplicar estos conceptos de manera práctica mediante el desarrollo de programas que pueden ejecutarse desde la consola en un entorno linux Para cada ejercicio se utilizo el lenguaje o la herramienta indicada lo que permitió comprender mejor el funcionamiento de las tecnicas estudiadas durante el curso
+Este repositorio contiene la solución de los 5 puntos del parcial de compiladores 
 
 Punto 1 Expresión regular y AFD para movimientos de ajedrez
 Analisis
