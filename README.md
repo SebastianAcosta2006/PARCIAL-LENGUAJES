@@ -4,6 +4,8 @@ Juan Sebastian Acosta Coy
 Este repositorio contiene la solución de los 5 puntos del parcial de compiladores utilizando diferentes herramientas como Python, Flex, Bison, C, Haskell y ANTLR.
 
 Punto 1 Expresión regular y AFD para movimientos de ajedrez
+Analisis
+En este punto se definió una expresión regular para representar algunos movimientos del ajedrez. Posteriormente se implementó un programa en Python que verifica si una cadena pertenece o no al lenguaje definido. Con diferentes pruebas se pudo comprobar cuáles movimientos son válidos según el patrón establecido y cuáles no cumplen con la estructura.
 
 Se implementa una expresión regular para validar movimientos del tipo
 p->k4  
@@ -17,6 +19,8 @@ Ejecutar:
 python3 ajedrez_afd.py
 
 Punto 2 Expresión regular para identificadores
+Analisis
+En este punto se implementó un AFD para validar identificadores usando una expresión regular. El programa verifica que los identificadores comiencen con una letra y que posteriormente puedan contener letras o números. Las pruebas realizadas permitieron comprobar cuáles cadenas son aceptadas y cuáles no cumplen con las reglas del identificador.
 Se implementa un AFD en Python que valida identificadores con la expresión regular:
 
 [A-Za-z][A-Za-z0-9]*
@@ -33,7 +37,8 @@ python3 id_afd.py
 
 
 Punto 3 Calculadora de raíz cuadrada con Flex y Bison
-
+Analisis
+En este ejercicio se utilizó Flex y Bison para construir un analizador léxico y sintáctico que calcula la raíz cuadrada de números reales. El cálculo se realizó utilizando el método de Newton-Raphson. Los datos de entrada se tomaron desde un archivo de texto y los resultados se mostraron en la consola.
 Se implementa un analizador léxico y sintáctico que calcula la raíz cuadrada de números reales utilizando el método de Newton-Raphson.
 
 Herramientas usadas:
@@ -52,7 +57,8 @@ Ejecutar con archivo de entrada:
 
 
 Punto 4 Algoritmo de Euclides
-
+Analisis
+En este punto se implementó el algoritmo de Euclides en dos lenguajes diferentes: C y Haskell. El objetivo fue comparar el rendimiento entre un lenguaje imperativo y uno declarativo. Después de ejecutar ambos programas se pudo observar que el programa en C presenta un tiempo de ejecución menor.
 Se implementa el algoritmo recursivo de Euclides y se compara entre C y Haskkel
 
 C (lenguaje imperativo)  
@@ -70,7 +76,8 @@ runghc euclides.hs
 
 
 Punto 5 Serie de Maclaurin usando ANTLR
-
+nálisis
+En este ejercicio se desarrolló un programa utilizando ANTLR para calcular los primeros términos de la serie de Maclaurin para la función exponencial. El programa recibe el valor de x y el número de términos a calcular. Con esto se obtiene una aproximación del valor de Ex
 Se implementa un programa que calcula los primeros n términos de la serie de Maclaurin para la función e^x.
 <img width="1280" height="800" alt="INSTALAR ANDTLR O BUENO ESO" src="https://github.com/user-attachments/assets/da021747-f68c-4e4d-933b-a6015aed3240" />
 
@@ -97,11 +104,5 @@ Ejemplo de entrada:
 
 maclaurin 1 10
 
-
-
-Haskell  
-Flex  
-Bison  
-ANTLR  
-Java  
-Linux Ubuntu
+HERRAMIENTAS USADAD
+flex, bison, java, python antlr 
